@@ -1,9 +1,13 @@
-## femto, an editor component for tview
+## femto, an editor component for tview based off [micro](github.com/zyedidia/micro) v1.4.1
 
 `femto` is a text editor component for tview. The vast majority of the code is derived from
 [the micro editor](github.com/zyedidia/micro).
 
-**Note** The shape of the `femto` API is a work-in-progress, and should not be considered stable.
+**Note** The shape of the `femto` API is a work-in-progress, and should not be considered stable or supported.
+
+The original `pgavlin/femto` editor did  not have the status bar or gutter, and also had some issues with the way colorschemes and colors between tview/tcell that I modified with my fork.
+
+![210161540-0f645a18-4673-4319-93ef-5349075664fe](https://user-images.githubusercontent.com/1828125/229385043-173d9a9f-fa46-4012-9f02-b3e4a295a7c1.png)
 
 ### Default keybindings
 ```
